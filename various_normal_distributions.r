@@ -8,5 +8,11 @@ x.ncurve1 <- dnorm(x, mean=60, sd=4.5)
 plot(x, x.ncurve1, xlab="x", ylab="x.norm", xlim=c(-3, 73.5),
 	ylim=c(0, 0.45), type="1", col="blue")
 par(new=T)
-plot(x, x.ncurve1, xlab="x", ylab="x.norm", xlim=c(-3, 73.5),
-	ylim=c(0, 0.45), type="1", col="blue")
+plot(x, x.ncurve2, xlab="", ylab="", axes=F, xlim=c(-3, 73.5),
+	ylim=c(0, 0.45), type="1", col="red")
+par(new=T)
+plot(x, x.ncurve3, xlab="", ylab="", axes=F, xlim=c(-3, 73.5),
+	ylim=c(0, 0.45), type="1", col="green")
+par(new=T)
+plot(x, x.ncurve4, xlab="", ylab="", axes=F, xlim=c(-3, 73.5),
+	ylim=c(0, 0.45), type="1", col="orange")
