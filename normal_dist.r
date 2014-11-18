@@ -14,4 +14,3 @@ par(new=T)
 plot(x, x.tdistr, xlab="x", ylab="probability",
 		 xlim=c(-3,3), ylim=c(0, 0.4), type="l", col="red")
 par(new=T)
-
